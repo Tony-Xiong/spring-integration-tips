@@ -9,6 +9,12 @@ pluginManagement {
 
 rootProject.name = 'spring-integration-tips'
 
-file("${rootDir}/apps").eachDir {
-    include "apps:${it.name}"
+file("${rootDir}/apps/java").eachDir {
+    include "apps:java:${it.name}"
+}
+file("${rootDir}/apps/kt").eachDir {
+    include "apps:kt:${it.name}"
+}
+file("${rootDir}/apps/groovy").eachDir {
+    include "apps:groovy:${it.name}"
 }

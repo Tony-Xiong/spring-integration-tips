@@ -49,25 +49,6 @@ class HttpDemoApplication {
     }
 
 
-    @Bean
-    fun flowFromSupplier() =
-        IntegrationFlow.fromSupplier ({ "bar" }) { e -> e.poller { p -> p.fixedDelay(10).maxMessagesPerPoll(1) } }
-            .channel { c -> c.queue("fromSupplierQueue") }
-            .get()
-    @Bean
-    fun flowFromSupplier1() =
-        IntegrationFlow.fromSupplier ({ "bar" }, { e -> e.poller { p -> p.fixedDelay(10).maxMessagesPerPoll(1) } })
-            .channel { c -> c.queue("fromSupplierQueue") }
-            .get()
-    @Bean
-    fun flowFromSupplier2(): IntegrationFlow {
-        return IntegrationFlow.fromSupplier { "the" }
-            .channel { e -> e.direct()}
-            .get()
-    }
-
-
-
     @GetMapping("/ping")
     fun pong():String{
         println("hello")

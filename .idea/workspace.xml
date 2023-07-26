@@ -5,30 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c2480c-84ce-47ea-b3dd-8810c2924a06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringIntegrationWhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/integration-feed-file/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/integration-feed-file/src/main/kotlin/com/xyz/demo/FeedDemoApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/integration-feed-file/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/integration-feed-file/src/main/resources/intergration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/integration-feed-file/src/test/kotlin/com/xyz/demo/DemoApplicationTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/integration-http/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/integration-http/src/main/kotlin/com/xyz/demo/HttpDemoApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/integration-http/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/integration-http/src/test/kotlin/com/xyz/demo/HttpDemoApplicationTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/integration-feed-file/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/kt/integration-feed-file/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/integration-feed-file/src/main/kotlin/com/xyz/demo/FeedDemoApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/apps/kt/integration-feed-file/src/main/kotlin/com/xyz/demo/FeedDemoApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/integration-feed-file/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/kt/integration-feed-file/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/integration-feed-file/src/main/resources/intergration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/kt/integration-feed-file/src/main/resources/intergration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/integration-feed-file/src/test/kotlin/com/xyz/demo/DemoApplicationTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/apps/kt/integration-feed-file/src/test/kotlin/com/xyz/demo/DemoApplicationTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/integration-http/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/kt/integration-http/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/integration-http/src/main/kotlin/com/xyz/demo/HttpDemoApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/apps/kt/integration-http/src/main/kotlin/com/xyz/demo/HttpDemoApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/integration-http/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/kt/integration-http/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/integration-http/src/test/kotlin/com/xyz/demo/HttpDemoApplicationTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/apps/kt/integration-http/src/test/kotlin/com/xyz/demo/HttpDemoApplicationTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,23 +48,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-integration-tips" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-integration-tips" type="f1a62948:ProjectNode" />
-                <item name="apps" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-integration-tips" type="f1a62948:ProjectNode" />
-                <item name="apps" type="2d1252cf:ModuleNode" />
-                <item name="integration-feed-file" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-integration-tips" type="f1a62948:ProjectNode" />
-                <item name="apps" type="2d1252cf:ModuleNode" />
-                <item name="integration-http" type="2d1252cf:ModuleNode" />
               </path>
             </expand>
             <select />
@@ -130,6 +100,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.256",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "5aa2fdaec26c1efdd053b3a584ec83c2",
     "vue.rearranger.settings.migration": "true"
   }
@@ -146,6 +117,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codes\spring-integration-tips\apps\kt" />
       <recent name="D:\codes\spring-integration-tips" />
       <recent name="D:\codes\spring-integration-tips\apps\integration-feed-file\src" />
     </key>
@@ -184,14 +156,14 @@
       <method v="2" />
     </configuration>
     <configuration name="FeedDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-integration-tips.apps.integration-feed-file.main" />
+      <module name="spring-integration-tips.apps.kt.integration-feed-file.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xyz.demo.FeedDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="HttpDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-integration-tips.apps.integration-http.main" />
+      <module name="spring-integration-tips.apps.kt.integration-http.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xyz.demo.HttpDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -219,12 +191,36 @@
       <option name="presentableId" value="Default" />
       <updated>1690262007160</updated>
       <workItem from="1690262008241" duration="27987000" />
-      <workItem from="1690355741899" duration="691000" />
+      <workItem from="1690355741899" duration="3404000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1690356592242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690356592242</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add infos">
+      <option name="closed" value="true" />
+      <created>1690357335982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690357335982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="init" />
+    <MESSAGE value="add infos" />
+    <option name="LAST_COMMIT_MESSAGE" value="add infos" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
