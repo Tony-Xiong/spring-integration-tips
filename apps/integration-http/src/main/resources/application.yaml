@@ -1,0 +1,6 @@
+spring:
+  integration:
+    channel:
+      auto-create: false
+server:
+  port: 9802
